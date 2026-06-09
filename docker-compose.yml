@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  marketlens:
+    build: .
+    container_name: marketlens-app
+    ports:
+      - "8000:8000"
+    restart: always
